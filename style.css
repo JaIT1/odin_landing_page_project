@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER SECTION */
+
+.header, .hero-section{
+    background: #1f2937;
+    display: flex;
+}
+.header{
+    padding: 20px 300px;
+    justify-content: space-between;
+}
+
+.header p{
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+ul{
+    display: inline-flex;
+    list-style: none;
+}
+
+li{
+    font-size: 18px;
+    color: #e5e7eb;
+    padding: 2px 10px;
+}
+
+/*HERO SECTION*/
+
+.hero-section h1{
+    font-size: 34px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    gap: 300px;
+    background: #1f2937;
+}
+
+.hero-section{
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    color: #f9faf8;
+    height: 400px;
+    padding-left: 300px;
+}
+
+button{
+    background-color: #3882f6;
+    border-radius: 10px;
+    width: 100px;
+    height: 35px;
+}
+
+.place-holder {
+    border: solid 2px;
+    min-width: 500px;
+    height: 200px;
+    text-align: center;
+    background: #bcbfc4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+       
+}
+
+/*BODY SECTION*/
+.body{
+    background: #f9faf8;
+    height: 300px;
+    margin-bottom: 100px;
+    background: #fff;
+}
+
+.boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.box{
+    border: solid 3px #3882f6;
+    width: 175px;
+    height: 175px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin-bottom: 100px;
+    
+}
+
+.p{
+    text-align: center;  
+}
+
+/*REVIEW SECTION*/
+
+.quote{
+    background: #e5e7eb;
+    height: 350px;
+    padding: 100px 0;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    margin: 30px 0;
+}
+
+.quote .p1{
+    font-size: 26px;
+    font-style: light-italic;
+    font-weight: lighter;
+}
+.quote .p2{
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 500px;
+}
+/*CALL TO ACTION SECTION*/
+.call-to-action{
+    background: #f9faf8;
+    display: flex;
+    align-items: center;
+    height: 300px;
+    justify-content: center;
+
+}
+
+.bold{
+    font-weight: bold;
+    font-size: 18px;
+    padding-bottom: 2px;
+}
+
+.info{
+    border: solid 2px #3882f6;
+    width: 850px;
+    height: 150px;
+    border-radius: 10px;
+    background: #3882f6;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.footer{
+    background: #1f2937;
+    color: #f9faf8;
+    text-align: center;
+    padding: 30px;
+}
